@@ -1,6 +1,10 @@
 body {
 
     background-color: maroon;
-    text: yellow;
 
+
+}
+p{
+
+  color:yellow;
 }
