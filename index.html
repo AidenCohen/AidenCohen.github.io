@@ -17,6 +17,16 @@
 <form>
   <button type = "button" action = "https://aidencohen.github.io/"> Click this button</button>
   </form>
+<canvas id = "Aiden" width = 100 height = 200>
 
+</canvas>
+<script>
+var Draw_Circle = document.getElementByID("Aiden");
+var Circle_Dimensions = Draw_Circle.getContext("2d");
+Circle_Dimensions.beginPath();
+Circle_Dimensions.arc(100,50,20,0,2*Math.PI);
+Circle_Dimensions.stroke();
+delete.Circle_Dimensions();
+</script>
     </body>
 </html>
