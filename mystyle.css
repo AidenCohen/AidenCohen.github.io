@@ -9,3 +9,43 @@ p{
 
   color:yellow;
 }
+#circle{
+width: 5px;
+    height: 5px;
+    background: #000000;
+    border-radius: 2.5px;
+}
+div{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        background-color: silver;
+        object-fit: none;
+        background-color: red;
+        animation-duration: 11s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes example {
+from{object-position: right 10px;}
+to{object-position: center 6px;}
+from {background-color: red;}
+to {background-color: yellow;}
+
+from{object-position: 1,10px}
+to{object-position: 2,6px}
+from {background: yellow;}
+to{background-color: purple;}
+
+from{object-position: 2,6px}
+to{object-position: 5,7px}
+from{background-color: purple;}
+to{background-color: orange; }
+
+from{object-position: 5,7px}
+to{object-position: 6,3px}
+from{background-color: orange;}
+to{background-color: green;}
+
+
+}
