@@ -12,6 +12,10 @@ p{
 
 #Circle
 {
+
+
+}
+.animate{
   width: 5px;
       height: 5px;
       background: #000000;
@@ -23,7 +27,6 @@ p{
         animation-name: example;
         animation-duration: 11s;
         animation-iteration-count: infinite;
-
 }
 
 @keyframes example {
