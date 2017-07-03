@@ -10,31 +10,49 @@ p{
   color:yellow;
 }
 
-
-
-#triangle
+#Circle
 {
-  width: 0;
-     height: 0;
-     border-bottom: 140px solid #fcf921;
-     border-left: 70px solid transparent;
-     border-right: 70px solid transparent;
+  width: 5px;
+      height: 5px;
+      background: #000000;
+      border-radius: 0px;
+
+}
+
+@keyframes example {
+from{object-position: 0,0px}
+to{object-position: 1,10px}
+from{object-position: 1,10px}
+to{object-position: 2,6px}
+from{object-position: 2,6px}
+to{object-position: 5,7px}
+from{object-position: 5,7px}
+to{object-position: 6,3px}
+
 
 
 }
 
-div{
+#Animation
+{
 
 
   width: 100px;
   height: 100px;
   background-color: red;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes example {
 from {background-color: red;}
 to {background-color: yellow;}
-
+from {background: yellow;}
+to{background-color: purple;}
+from{background-color: purple;}
+to{background-color: orange; }
+from{background-color: orange;}
+to{background-color: green;}
+}
 }
