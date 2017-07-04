@@ -90,8 +90,78 @@
 </div>
 
 
+<div id = "circle"> </div>
+<style>
+  #circle{
+width: 6px;
+    height: 6px;
+    background: #000000;
+    border-radius: 3px;
+}
+div{
+        width: 100px;
+        height: 100px;
+        background-color: silver;
+        object-fit: none;
+        background-color: red;
+        animation-duration: 11s;
+        animation-iteration-count: infinite;
+}
 
-
+@keyframes example {
+0%{
+  transform(32,43);
+background-color: red;
+  }
+10%{
+  transform(70,82);
+  background-color: yellow;
+  
+  }
+  20% {
+    transform(10,40);
+    background-color: purple;
+  }
+30% {
+  transform(50,50);
+  background-color: red;
+  }
+  40% {
+   transform(85,20);
+    background-color: green;
+  }
+  50%{  
+    transform( 35,75);
+    background-color: brown;
+  
+  }
+  60% {
+   transform(42,54);
+    background-color : maroon;
+  }
+  70% {
+    
+   transform(90,20);
+    background-color : blue;
+  }
+  
+  80% {
+    transform(56,78);
+    background-color: lime;
+  }
+  90% {
+   transform(98,45);
+    background-color: fuchsia;
+   
+  }
+100% {
+  transform(23,76);
+  back-ground-color: olive;
+  
+  
+  }
+}
+  </style>
 
 
 <footer class="container-fluid text-center">
