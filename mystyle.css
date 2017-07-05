@@ -100,7 +100,6 @@ background-color: red;
 #im
 {
 	
-overflow-x: hidden;
-overflow-y: hidden;
-	
+height: 80%;
+
 }
