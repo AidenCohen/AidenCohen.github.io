@@ -25,7 +25,7 @@ background-color: red;
 10%{
   transform(70,82);
   background-color: yellow;
-  
+
   }
   20% {
     transform(10,40);
@@ -39,21 +39,21 @@ background-color: red;
    transform(85,20);
     background-color: green;
   }
-  50%{  
+  50%{
     transform( 35,75);
     background-color: brown;
-  
+
   }
   60% {
    transform(42,54);
     background-color : maroon;
   }
   70% {
-    
+
    transform(90,20);
     background-color : blue;
   }
-  
+
   80% {
     transform(56,78);
     background-color: lime;
@@ -61,13 +61,13 @@ background-color: red;
   90% {
    transform(98,45);
     background-color: fuchsia;
-   
+
   }
 100% {
   transform(23,76);
   back-ground-color: olive;
-  
-  
+
+
   }
 }
 */
@@ -75,28 +75,30 @@ background-color: red;
 
 .slidein
 {
-  
- 
-	overflow-y: hidden;
-	overflow-x: hidden;
-	max-height: 5000px; /* approximate max height */
-	max-length: 5000px;
+
+
 
 	transition-property: all;
 	transition-duration: .5s;
 	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 
-  
-}
 
+}
+slidenin:hover
+{
+
+height:  5000px;
+overflow-x: hidden;
+
+}
 
 
 
 .black
 {
-	
+
 background-color: black;
 
-	
-	
+
+
 }
