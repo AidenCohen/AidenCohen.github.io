@@ -114,7 +114,7 @@ background-color: black;
 }
 
 
-#basic{
+.basic{
       height:100px;
       width: 100px;
       overflow-x: hidden;
@@ -125,8 +125,8 @@ background-color: black;
 
       }
       div:hover{
-      height:150;
-      width:150;
+      height:150px;
+      width:150px;
       background-color : blue;
 
 
