@@ -39,7 +39,18 @@
   </style>
 </head>
 <body>
-<iframe  width="0" height="0" src="https://www.youtube.com/embed/1w7OgIMMRc4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<iframe  id = "cool" width="0" height="0" src="https://www.youtube.com/embed/1w7OgIMMRc4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+  
+      <button onclick = "playMusic">Click to play music </button>
+      <script>
+        var x = document.getElementByID("cool")
+        function playMusic {
+          
+          x.play()
+          
+          
+        }
+      </script>
 <nav class="navbar navbar-inverse">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
