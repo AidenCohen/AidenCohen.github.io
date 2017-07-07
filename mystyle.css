@@ -112,3 +112,24 @@ background-color: black;
 
 
 }
+
+
+#basic{
+      height:100px;
+      width: 100px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      background-color: red;
+      transition: width 2s;
+
+
+      }
+      div:hover{
+      height:150;
+      width:150;
+      background-color : blue;
+
+
+
+
+}
