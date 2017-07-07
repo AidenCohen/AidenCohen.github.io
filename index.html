@@ -40,11 +40,12 @@
 </head>
 <body>
 
-  
-      <button onclick = "stopVideo()">Click to pause music </button>
-  <div id = "player></div>
+      
+<button onclick="stopVideo()" type="button">Pause Video</button><br> 
+<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
 
-     <script>
+    <script>
       // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
 
@@ -59,7 +60,7 @@
         player = new YT.Player('player', {
           height: '0',
           width: '0',
-          videoId: 'M7lc1UVf-VE',
+          videoId: '1w7OgIMMRc4',
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -75,7 +76,7 @@
       // 5. The API calls this function when the player's state changes.
       //    The function indicates that when playing a video (state=1),
       //    the player should play for six seconds and then stop.
-      var done = false;
+      var done = true
       function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING && !done) {
           setTimeout(stopVideo, 6000);
@@ -86,6 +87,7 @@
         player.stopVideo();
       }
     </script>
+    
       
      
 <nav class="navbar navbar-inverse">
