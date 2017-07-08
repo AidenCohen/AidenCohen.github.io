@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<style>
+#myContainer {
+  width: 500px;
+  height: 10px;
+  position: relative;
+  background: yellow;
+  transform:rotate(270deg);
+  transform:translate(50px,50px);
+  
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+  transform:translate(50px,0px);
+  
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Click to start</button> 
+</p>
+<div id ="myAnimation"></div>
+<div id ="myContainer">
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 450) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+<a href = "project.html"> Click here to go back</a>
+</body>
+</html>
